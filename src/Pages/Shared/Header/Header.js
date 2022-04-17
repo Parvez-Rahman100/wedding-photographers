@@ -25,17 +25,17 @@ const Header = () => {
       <Nav.Link as={Link} className='text-dark' to="/about">About</Nav.Link>
       { user ? 
 
-<button className='btn btn-link text-dark text-decoration-none' onClick={handleSignOut}>Sign Out</button>
-:
-  <Nav.Link as={Link} className='text-dark' to="/login">
-  Login
-</Nav.Link>}
-    </Nav>
-  </Navbar.Collapse>
-  </Container>
-</Navbar>
-        </div>
-    );
+    <button className='btn btn-link text-dark text-decoration-none' onClick={handleSignOut}>Sign Out</button>
+    :
+      <Nav.Link as={Link} className='text-dark' to="/login">
+      Login
+    </Nav.Link>}
+        </Nav>
+      </Navbar.Collapse>
+      </Container>
+    </Navbar>
+            </div>
+        );
 };
 
 export default Header;
