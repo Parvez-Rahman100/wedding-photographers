@@ -7,7 +7,7 @@ import SocialLogin from '../SocialLogIn/SocialLogIn';
 
 const Login = () => {
     const location = useLocation();
-  let from = location.state?.from?.pathname || "/";
+    let from = location.state?.from?.pathname || "/";
 
   const [
     signInWithEmailAndPassword,
