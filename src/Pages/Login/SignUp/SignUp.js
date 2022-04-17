@@ -57,7 +57,7 @@ const SignUp = () => {
               <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
             <Button variant="primary" type="submit">
-              Signup
+              Signup Now
             </Button>
           </Form>
           <SocialLogin></SocialLogin>

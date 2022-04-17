@@ -12,22 +12,22 @@ const Header = () => {
   }
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar style={{backgroundColor:'rgba(209, 216, 224,1.0)'}} collapseOnSelect expand="lg" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand as={Link} className='text-dark' to="/home">Wedding Photographer's Vision</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link as={Link} className='text-dark' to="#services">Services</Nav.Link>
+      <Nav.Link as={Link} className='text-dark' to="/blogs">Blogs</Nav.Link>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link as={Link} className='text-dark' to="/about">About</Nav.Link>
       { user ? 
 
-<button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign Out</button>
+<button className='btn btn-link text-dark text-decoration-none' onClick={handleSignOut}>Sign Out</button>
 :
-  <Nav.Link as={Link} to="/login">
+  <Nav.Link as={Link} className='text-dark' to="/login">
   Login
 </Nav.Link>}
     </Nav>
