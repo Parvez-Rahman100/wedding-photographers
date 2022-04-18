@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <div className="container">
-                <div className="d-lg-flex justify-content-center align-items-center">
+                <div className="d-lg-flex flex-sm-row justify-content-center align-items-center">
                     <div className='my-5'>
                         <img style={{width : '500px'}} className='rounded ' src={me} alt="" />
                     </div>

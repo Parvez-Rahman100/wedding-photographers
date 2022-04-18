@@ -5,7 +5,7 @@ const Blogs = () => {
         <div className='container'>
             <div >
                 <h1 className='text-center text-success my-3'>Difference between authentication and authorization</h1>
-                <div className='d-flex justify-content-between bg-success'>
+                <div className='d-lg-flex flex-sm-row justify-content-between bg-success'>
                 <div className='border border-2 px-3 rounded'>
                     <h2>Authentication</h2>
                     <p>Authorization means who is the user.</p>
