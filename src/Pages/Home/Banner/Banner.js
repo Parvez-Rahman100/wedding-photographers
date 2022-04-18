@@ -15,7 +15,7 @@ const Banner = () => {
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      <h3 className='text-dark'>Engagement Shoot</h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -26,7 +26,7 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3 className='text-white'>Quick and Fast Shoot</h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -37,7 +37,7 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3 className='text-white'>Storytelling Photo & Video</h3>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
